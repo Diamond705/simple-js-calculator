@@ -30,30 +30,30 @@
 					<form name="calc">
 						<input type="text" name="output" placeholder="0" value="" ><br>
 
-						<input class="zoom green" type="button" name="" value=" 1 " onclick="document.calc.output.value+='1'" >
-						<input class="zoom green" type="button" name="" value=" 2 " onclick="document.calc.output.value+='2'" >
-						<input class="zoom green" type="button" name="" value=" 3 " onclick="document.calc.output.value+='3'" >
-						<input class="zoom green" type="button" name="" value=" / " onclick="document.calc.output.value+='/'" ><br>
+						<input class="zoom green" type="button" name="" value=" 1 " onclick="entries('1')" >
+						<input class="zoom green" type="button" name="" value=" 2 " onclick="entries('2')" >
+						<input class="zoom green" type="button" name="" value=" 3 " onclick="entries('3')" >
+						<input class="zoom green" type="button" name="" value=" / " onclick="entries('/')" ><br>
 
-						<input class="zoom green" type="button" name="" value=" 4 " onclick="document.calc.output.value+='4'" >
-						<input class="zoom green" type="button" name="" value=" 5 " onclick="document.calc.output.value+='5'" >
-						<input class="zoom green" type="button" name="" value=" 6 " onclick="document.calc.output.value+='6'" >
-						<input class="zoom green" type="button" name="" value=" X " onclick="document.calc.output.value+='*'" ><br>
+						<input class="zoom green" type="button" name="" value=" 4 " onclick="entries('4')" >
+						<input class="zoom green" type="button" name="" value=" 5 " onclick="entries('5')" >
+						<input class="zoom green" type="button" name="" value=" 6 " onclick="entries('6')" >
+						<input class="zoom green" type="button" name="" value=" X " onclick="entries('*')" ><br>
 
-						<input class="zoom green" type="button" name="" value=" 7 " onclick="document.calc.output.value+='7'" >
-						<input class="zoom green" type="button" name="" value=" 8 " onclick="document.calc.output.value+='8'" >
-						<input class="zoom green" type="button" name="" value=" 9 " onclick="document.calc.output.value+='9'" >
-						<input class="zoom green" type="button" name="" value=" - " onclick="document.calc.output.value+='-'" ><br>
+						<input class="zoom green" type="button" name="" value=" 7 " onclick="entries('7')" >
+						<input class="zoom green" type="button" name="" value=" 8 " onclick="entries('8')" >
+						<input class="zoom green" type="button" name="" value=" 9 " onclick="entries('9')" >
+						<input class="zoom green" type="button" name="" value=" - " onclick="entries('-')" ><br>
 
-						<input class="zoom green" type="button" name="" value=" ( " onclick="document.calc.output.value+='('" >
-						<input class="zoom green" type="button" name="" value=" ) " onclick="document.calc.output.value+=')'" >
-						<input class="zoom green" type="button" name="" value=" 0 " onclick="document.calc.output.value+='0'" >
-						<input class="zoom green" type="button" name="" value=" + " onclick="document.calc.output.value+='+'" ><br>
+						<input class="zoom green" type="button" name="" value=" ( " onclick="entries('(')" >
+						<input class="zoom green" type="button" name="" value=" ) " onclick="entries(')')" >
+						<input class="zoom green" type="button" name="" value=" 0 " onclick="entries('0')" >
+						<input class="zoom green" type="button" name="" value=" + " onclick="entries('+')" ><br>
 
-						<input class="zoom green" type="button" name="" value=" c " onclick="document.calc.output.value=''" >
-						<input class="zoom green" type="button" name="" value=" . " onclick="document.calc.output.value+='.'" >
-						<input class="zoom green" type="button" name="" value=" = " onclick="document.calc.output.value=eval(document.calc.output.value)" >
-						<input class="zoom green" type="button" name="" value=" % " onclick="document.calc.output.value+='%'" ><br>
+						<input class="zoom green" type="button" name="" value=" c " onclick="erase()" >
+						<input class="zoom green" type="button" name="" value=" . " onclick="entries('.')" >
+						<input class="zoom green" type="button" name="" value=" = " onclick="calculate()" >
+						<input class="zoom green" type="button" name="" value=" % " onclick="entries('%')" ><br>
 						
 						
 						
@@ -90,8 +90,8 @@
 		</div>
 	</div>
 
+	<script type="text/javascript" src="assets/js/main.js"></script>	
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
 	<script type="text/javascript" src="assets/js/hover.zoom.conf.js"></script>
 	<script type="text/javascript" src="assets/js/hover.zoom.js"></script>
 </body>
