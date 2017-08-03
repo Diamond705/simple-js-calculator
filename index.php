@@ -23,7 +23,39 @@
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-                    <!-- basic calculator -->
+					<!-- basic calculator -->
+					<form name="calc">
+						<input type="text" name="output" placeholder="0" value="" ><br>
+
+						<input type="button" name="" value=" 1 ">
+						<input type="button" name="" value=" 2 ">
+						<input type="button" name="" value=" 3 ">
+						<input type="button" name="" value=" / "><br>
+
+						<input type="button" name="" value=" 4 ">
+						<input type="button" name="" value=" 5 ">
+						<input type="button" name="" value=" 6 ">
+						<input type="button" name="" value=" X "><br>
+
+						<input type="button" name="" value=" 7 ">
+						<input type="button" name="" value=" 8 ">
+						<input type="button" name="" value=" 9 ">
+						<input type="button" name="" value=" - "><br>
+
+						<input type="button" name="" value=" ( ">
+						<input type="button" name="" value=" ) ">
+						<input type="button" name="" value=" 0 ">
+						<input type="button" name="" value=" + "><br>
+
+						<input type="button" name="" value=" c ">
+						<input type="button" name="" value=" . ">
+						<input type="button" name="" value=" = ">
+						<input type="button" name="" value=" % "><br>
+						
+						
+						
+						
+					</form>
                     
 				</div><!-- /col-lg-8 -->
 			</div><!-- /row -->
