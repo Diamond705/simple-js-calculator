@@ -74,9 +74,9 @@
 				<div class="col-lg-6">
 					<h4>My Links</h4>
 					<p>
-						<a href="#">Medium</a><br/>
-						<a href="#">Twiter</a><br/>
-						<a href="#">Github</a>
+						<a href="https://medium.com/@n.diamond.705">Medium</a><br/>
+						<a href="https://twitter.com/uchendububa">Twiter</a><br/>
+						<a href="https://github.com/Diamond705">Github</a>
 					</p>
 				</div><!-- /col-lg-4 -->
 				
