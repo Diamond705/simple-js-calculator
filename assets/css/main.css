@@ -132,7 +132,7 @@ a {
 	width: 400px;
 	border: 3px solid #666666;
 	border-radius: 5px;
-	background-color: #e1e1e1;
+	background-color: #110f0f;
 }
 
 input[type=text] {
@@ -147,12 +147,13 @@ input[type=text] {
 
 input[type=button] {
 	position: relative;
-	background-color: #b3b3b3;
+	background-color:#494545;
 	width: 20%;
 	margin: 2%;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 10%;
+	color: #fff;
 }
 
 input[type=button]:hover {
